@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulaire</title>
+  <link rel="stylesheet" href="style/output.css">
+</head>
+
+<body>
+  <div class="flex items-center justify-center w-screen h-screen bg-neutral-200">
+    <div class="flex flex-col items-end gap-4 p-4 bg-white rounded-lg shadow-md md:flex-row">
+      <div class="flex flex-col gap-4 sm:flex-row">
+        <div class="w-full sm:flex-1 md:flex-1">
+          <label for="UserEmail" class="block text-xs font-medium text-gray-700 "> Name
+          </label>
+          <input id="UserName" placeholder="Melvyn"
+            class="w-full p-2 mt-1 border-gray-200 rounded-md shadow-sm sm:text-sm group" />
+        </div>
+        <div class="w-full sm:flex-[2] md:flex-[2]">
+          <label for="UserEmail" class="block text-xs font-medium text-gray-700 "> Email
+          </label>
+          <input id="UserEmail" placeholder="contact@melvynx.com"
+            class="w-full p-2 mt-1 border-gray-200 rounded-md shadow-sm sm:text-sm " />
+        </div>
+      </div>
+      <button placeholder="contact@melvynx.com"
+        class="w-full px-3 py-2 mt-1 text-gray-200 bg-gray-900 border-gray-200 rounded-md shadow-sm md:w-fit sm:text-sm ring-4 group-hover:ring-red-900">Submit</button>
+    </div>
+  </div>
+
+  <button class="... ring-offset-2 ring-2 bg-slate-950">Button A</button>
+
+  <div class="absolute bottom-4 left-4">
+    <div class="block p-2 text-xs text-white bg-gray-600 rounded-full shadow-md sm:hidden">XS</div>
+    <div class="hidden p-2 text-xs text-white bg-gray-600 rounded-full shadow-md sm:block md:hidden">SM</div>
+    <div class="hidden p-2 text-xs text-white bg-gray-600 rounded-full shadow-md md:block lg:hidden">MD</div>
+    <div class="hidden p-2 text-xs text-white bg-gray-600 rounded-full shadow-md lg:block xl:hidden">LG</div>
+    <div class="hidden p-2 text-xs text-white bg-gray-600 rounded-full shadow-md xl:block 2xl:hidden">XL</div>
+    <div class="hidden p-2 text-xs text-white bg-gray-600 rounded-full shadow-md 2xl:block">2XL</div>
+  </div>
+
+</body>
+
+</html>
