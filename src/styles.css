@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  @apply w-full p-6 bg-white rounded-lg shadow-lg md:w-1/3;
+}
+
+.card-header {
+  @apply mb-2 text-lg font-semibold;
+}
+
+/* Ajoutez les autres classes comme expliqué précédemment */
+
+.card {
+  @apply w-full p-6 bg-white border rounded-lg shadow-lg md:w-1/3 ;
+}
+
+.card-header {
+  @apply mb-2 text-lg font-semibold;
+}
+
+.card-price {
+  @apply mb-4 text-3xl font-bold;
+}
+
+.card-features {
+  @apply mb-6 space-y-2;
+}
+
+/* Cible chaque <li> dans .card-features */
+.card-features li {
+  @apply flex items-center;
+}
+
+/* Cible chaque <span> premier enfant dans .card-features li */
+.card-features li>span {
+  @apply mr-2 text-blue-500;
+}
+
+.card-button {
+  @apply w-full py-2 text-white bg-blue-500 rounded hover:bg-blue-600;
+}
+
+
+/* .card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin: 16px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.card-content {
+  font-size: 1rem;
+  color: #333333;
+} */
